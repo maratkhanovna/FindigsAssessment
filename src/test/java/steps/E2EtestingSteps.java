@@ -94,6 +94,7 @@ public class E2EtestingSteps extends CommonMethods {
     @When("user selects move-in date the first date of the next month")
     public void user_selects_move_in_date_the_first_date_of_the_next_month() {
         click(applicationPage.selectMoveInDate);
+        click(applicationPage.selectMoveInDate);
         for (WebElement moveInDate:applicationPage.weeks) {
             if (moveInDate.getText().equals(15)){
                 moveInDate.click();
