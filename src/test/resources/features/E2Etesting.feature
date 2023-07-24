@@ -19,20 +19,19 @@ Feature: End-to-End Test for Findigs Rental Application
     And user selects second apartment in the list
     When user selects move-in date the first date of the next month
     And user is able to click on Start Application button and verify this button is enabled
+    * user selects the number of co-applicants over eighteen years and clicks on Save and continue button
+    * user selects the number of people under eighteen years and clicks on Save and continue button
+    * user selects number of vehicles he has and clicks on Save and continue button
+    * user selects number of animals he has and clicks on Save and continue button
+    * user selects and clicks on the answer No
 
+    #ctr+alt+shift+j
 
-
-
-    #user selects the number of co-applicants over 18 years and clicks on Save and continue button
-    # user selects the number of people under 18 years and clicks on Save and continue button
-    # user selects number of vehicles he has and clicks on Save and continue button
-    # user selects number of animals he has and clicks on Save and continue button
-    # user selects and clicks on the answer "No"
     # user is successfully completed household section and is able to click on Next button
     # user enters valid current address
     # user selects state from the dropdown and clicks on Save and continue button
     # user selects current housing status and clicks on Save and continue button
-    # user enters company name, email, phone number and clicks on Save and continue button
+    ## user enters company name, email, phone number and clicks on Save and continue button
     # user enters random number as a total current rent and clicks on Save and continue button
     # user enters random number as a share of current rent and clicks on Save and continue button
     # user refuses to verify with a bank account and clicks on Skip Button
@@ -40,7 +39,7 @@ Feature: End-to-End Test for Findigs Rental Application
     # user upload landlord reference letter and clicks on Save and continue button
     # user enters random number, company name and clicks on Save and continue button
     # user enters random date and clicks on Save and continue button
-    # user selects and clicks on the answer "No" 4 times with time interval
+    # user selects and clicks on the answer "No" four times with time interval
     # user is successfully completed housing history section and is able to click on Next button
     # user selects employment status and clicks on Save and continue button
     # user enters company name", job title, random date, address, email and clicks on Save and continue button
@@ -51,7 +50,7 @@ Feature: End-to-End Test for Findigs Rental Application
     # user enters valid username and password and clicks on Continue button
     # user is able to close a window by clicking Close button
     # user clicks on Save and continue button
-    # user selects and clicks on the answer "No" 5 times with time interval
+    # user selects and clicks on the answer "No" five times with time interval
     # user is successfully completed income section and is able to click on Next button
     # user clicks on Skip button
     # user is able to skip to document upload
@@ -68,7 +67,7 @@ Feature: End-to-End Test for Findigs Rental Application
     # user selects one of the given answers and clicks on Save and continue button
     # user selects one of the given answers and clicks on Save and continue button
     # user clicks on Save and continue button
-    # user selects and clicks on the answer "No"
+    # user selects and clicks on the answer No
     # user is able to click on Finalize and Submit application button
     # user enters agent's name, credit card details, full name, signature and clicks Complete button
     # user is able to Submit application for Review and verify Submitted message

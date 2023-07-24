@@ -8,6 +8,7 @@ public class PageInitializer {
     public static PropertySearchPage propertySearchPage;
     public static ReviewQualificationsPage reviewQualificationsPage;
     public static ApplicationPage applicationPage;
+    public static YourHouseholdPage yourHouseholdPage;
 
 
     public static void initializePageObjects(){
@@ -16,5 +17,6 @@ public class PageInitializer {
         propertySearchPage = new PropertySearchPage();
         reviewQualificationsPage = new ReviewQualificationsPage();
         applicationPage = new ApplicationPage();
+        yourHouseholdPage = new YourHouseholdPage();
     }
 }
